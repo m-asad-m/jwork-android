@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">jwork-android</string>
+    <string name="dummy">Dummy</string>
+    <string name="emailAlreadyExists">Sorry, your email already exists\nPlease login</string>
+    <string name="registerSuccess">Registration successful\nLet\'s start your journey</string>
+    <string name="wrongEmailPassword">Sorry, your email or password is wrong\nPease try again</string>
+    <string name="logoutQuestion">Are you sure to logout?</string>
+    <string name="ongoingInvoiceAlreadyExists">Sorry, you have an ongoing invoice\nPlease complete or cancel it first</string>
 </resources>

@@ -3,15 +3,27 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="55dip"
-    android:orientation="vertical" >
+    android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft"
+    android:paddingEnd="15dp"
+    android:orientation="horizontal" >
 
     <TextView
-        android:id="@+id/lblListItem"
-        android:layout_width="match_parent"
+        android:id="@+id/lblListItemName"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="17dip"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft" />
+        android:textSize="17sp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_weight="1"
+        android:text="@string/dummy" />
+
+    <TextView
+        android:id="@+id/lblListItemCategory"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:text="@string/dummy" />
 
 </LinearLayout>
